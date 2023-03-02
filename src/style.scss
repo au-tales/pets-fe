@@ -1,0 +1,30 @@
+$primary: #424B5A;
+$secondary: #C2D1D9;
+$light: #F2F5F7;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    // "success": $success,
+    // "info": $info,
+    // "warning": $warning,
+    // "danger": $danger,
+    "light": $light,
+    // "dark": $dark
+);
+
+
+$font-family-sans-serif: Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+$font-size-root: 14px;
+
+
+$border-radius: 0.286rem !default;
+$placeholder-opacity-max: 0.3;
+$placeholder-opacity-min: 0.1;
+
+
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap";
